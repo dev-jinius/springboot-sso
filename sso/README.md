@@ -7,7 +7,7 @@ Keycloak은 사용자 인증 및 토큰 발급을 한다.
 Resource Server인 이 프로젝트는 Keycloak 토큰 검증 및 권한 확인을 하며,
 View 개발 이전에 임시로 Postman을 사용하여 로그인 API 호출을 한다.
 
-### Skills
+## Skills
 * Spring Boot
 * Java
 * Maven
@@ -15,7 +15,9 @@ View 개발 이전에 임시로 Postman을 사용하여 로그인 API 호출을 
 * OAuth2.0
 * Keycloak
 
-### Process
-1. Postman 로그인 API 요청
-2. Keycloak으로 리다이렉션
-3. Keycloak
+## 역할
+* 사용자 클라이언트 : Postman
+* Keycloak client : Springboot
+* 인증 서버 : Keycloak
+
+## 회원가입, 로그인 기능 구현
