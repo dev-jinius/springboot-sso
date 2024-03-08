@@ -20,4 +20,4 @@ View 개발 이전에 임시로 Postman을 사용하여 로그인 API 호출을 
 * Keycloak client : Springboot
 * 인증 서버 : Keycloak
 
-## 회원가입, 로그인 기능 구현
+## 회원가입, 로그인 기능
